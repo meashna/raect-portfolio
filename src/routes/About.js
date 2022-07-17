@@ -6,15 +6,15 @@ import AboutContent from '../components/AboutContent';
 
 
 
-const About = () => {
+function About() {
   return (
     <div>
       <Navbar/>
-      <HeroImg2 heading="About me " text="All about me"/>
+      <HeroImg2 heading="About me " text="Here I am going to add some details about me! "/>
       <AboutContent/>
       <Footer/>
     </div>
-  );
+  )
 }
 
-export default About;
+export default About

@@ -6,15 +6,15 @@ import Form from "../components/Form";
 
 
 
-const Contact = () => {
+function Contact() {
   return (
     <div>
      <Navbar/>
-     <HeroImg2 heading="Contact me " text="If you like contact me"/>
+     <HeroImg2 heading="Contact me " text="If you want a service or guidence, feel free to text me!"/>
      <Form/>
      <Footer/>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

@@ -40,8 +40,37 @@
 }
 
 .social{
-    margin-top: 1rem;
+    margin-top:1rem;   
 }
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display:inline-block;
+  
+}
+
+a.social:hover {
+    transform: translateY(-5px);
+  
+}
+
+a.linkedin {
+    color:  #0e76a8;
+}
+  
+a.github {
+    color: #484a4e;
+} 
+  
+a.twitter {
+    color: rgb(29, 155, 240);
+}
+  
+a.instagram {
+    color:black;
+}
+
 
 h4{
     font-size: 1.2rem;
@@ -57,3 +86,21 @@ p{
     grid-template-columns:1fr ;
     }
 }
+
+
+a.youtube {
+    color: #eb3223;
+    margin-right: 1rem;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }

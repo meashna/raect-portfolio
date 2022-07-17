@@ -11,16 +11,11 @@ const AboutContent = () => {
       <div className="left">
             <h1>Who Am I</h1>
             <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-               mollit anim id est laborum.
+            I am Ashna T from Kerala , currently pursuing  my BTech Degree in Computer Science under Kerala Technical university.
+            I am a learning enthusiast who admire engineering and programming.Now  I  trying  to develop  my skills in MERN stack.
             </p>
             <Link to="/Contact">
-            <button className="btn"> CONTACT </button>
+            <button className="btn"> Want to connect? </button>
             </Link>
       </div>
       <div className="right">

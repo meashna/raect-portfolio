@@ -6,7 +6,7 @@ import Work from '../components/Work';
 
 
 
-const Project = () => {
+function Project() {
   return (
     <div>
       <Navbar/>
@@ -15,7 +15,7 @@ const Project = () => {
       <Footer/>
 
     </div>
-  );
+  )
 }
 
-export default Project;
+export default Project
